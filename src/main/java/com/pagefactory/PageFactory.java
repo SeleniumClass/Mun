@@ -1,4 +1,4 @@
-package com.pagefactory;
+ package com.pagefactory;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,9 +8,9 @@ public class PageFactory {
 	
 	
 	@FindBy(how = How.XPATH, using = "(//*[contains(text(), 'Sign In')])[2]")
-	private WebElement signInbtn;
+	private WebElement signInbtn;//
 /*
-	public WebElement getSignInbtn() {
+	public WebElement getSignInbtn() {//metho is public its a java rule , getmethod encapsulation 
 		return signInbtn;
 	}
 

@@ -35,7 +35,7 @@ package homework;
 			//Assert.assertEquals(driver.getTitle(),"https://www.orbitz.com/");
 			
 			
-		/*	WebElement logoOrbitz = driver.findElement(By.xpath("//*[contains(@alt,'www.orbitz.com')]"));
+			WebElement logoOrbitz = driver.findElement(By.xpath("//*[contains(@alt,'www.orbitz.com')]"));
 			logoOrbitz.click();
 			WebElement account = driver.findElement(By.xpath("(//*[contains(@id,'header-account-menu' )])[1]"));
 			account.click();
@@ -51,7 +51,7 @@ package homework;
 			
 		
 			
-			*/
+			
 		}
 
 	}
